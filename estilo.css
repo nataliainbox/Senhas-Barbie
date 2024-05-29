@@ -5,3 +5,10 @@
     --borda: #649856;
 
 }
+
+*{
+    font-weight: 400;
+}
+body{
+    background-color: #FF008A
+}
