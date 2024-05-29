@@ -1,6 +1,6 @@
 :root{
     --cor-de-fundo: #FF008A ;
-    --cor-de-texto: #FF008A;
+    --cor-de-texto: #ffffff;
     --fundo-senha: #FF008A;
     --borda: #649856;
 
@@ -10,5 +10,21 @@
     font-weight: 400;
 }
 body{
-    background-color: #FF008A
+    color: var(--cor-de-texto);
+    background-color: #FF008A;
+    font-family: var(--roboto);
+}
+
+.titulo-principal{
+    font-family: var(--roboto-mono);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+}
+
+.conteudo-titulo{
+    text-align: center;
+    margin-top: 86px;
 }
