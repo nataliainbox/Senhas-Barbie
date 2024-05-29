@@ -13,19 +13,17 @@
 }
 body{
     color: var(--cor-de-texto);
-    background-color: #FF008A;
+    background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
 
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
-    text-align: center;
 }
 
 .titulo-secundario{
     font-size: 24px;
-    text-align: center;
 }
 
 .conteudo-titulo{
