@@ -30,3 +30,23 @@ body{
     text-align: center;
     margin-top: 80px;
 }
+
+.parametro-senha__texto
+.parametro-senha_botoes{
+    display: flex;
+    justify-content: center;
+}
+.parametro-senha_botao{
+        background-color: var(--cor-de-fundo);
+        color: var(--cor-de-texto);
+        border: 2px solid var(--borda);
+        padding: 24px;
+        cursor: pointer
+}
+.parametro-senha__texto{
+    padding: 24px;
+    border-top: 2px solid var(--borda);
+    border-bottom: 2px solid var(--borda);
+    margin: 0;
+    font-size: 24px;
+}
